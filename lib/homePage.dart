@@ -50,14 +50,13 @@ class _TopCardState extends State<TopCard> {
             padding: EdgeInsets.all(15.0),
             decoration: BoxDecoration(
               color: Colors.orange,
-              borderRadius:
-                  BorderRadius.circular(10), // Optional: Adds rounded corners
+              borderRadius: BorderRadius.circular(10),
               boxShadow: [
                 BoxShadow(
-                  color: Colors.grey, // Shadow color
-                  offset: Offset(5, 9), // Offset from the container
-                  blurRadius: 7, // Spread or blur of the shadow
-                  spreadRadius: 0, 
+                  color: Colors.grey,
+                  offset: Offset(5, 9),
+                  blurRadius: 7,
+                  spreadRadius: 0,
                 ),
               ],
             ),
@@ -69,7 +68,6 @@ class _TopCardState extends State<TopCard> {
                 ),
                 Container(
                   height: 40,
-                  // width: (constraints.maxWidth > 600) ? 400 : 200,
                   width: 150,
                   color: Colors.grey,
                 ),
@@ -111,21 +109,18 @@ class _BottomCardState extends State<BottomCard> {
               child: Padding(
                 padding: EdgeInsets.only(left: 3, right: 3, top: 20),
                 child: Container(
-                  // height: 60,
                   decoration: BoxDecoration(
                     color: Colors.orange,
-                    borderRadius: BorderRadius.circular(
-                        10), // Optional: Adds rounded corners
+                    borderRadius: BorderRadius.circular(10),
                     boxShadow: [
                       BoxShadow(
-                        color: Colors.grey, // Shadow color
-                        offset: Offset(5, 9), // Offset from the container
-                        blurRadius: 7, // Spread or blur of the shadow
-                        spreadRadius: 0, // Optional: Expands the shadow
+                        color: Colors.grey,
+                        offset: Offset(5, 9),
+                        blurRadius: 7,
+                        spreadRadius: 0,
                       ),
                     ],
                   ),
-
                   child: Stack(children: [
                     Align(
                       alignment: Alignment.bottomCenter,
